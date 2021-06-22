@@ -1,0 +1,12 @@
+/*
+ * Copyright (c) 2021.
+ * leiming.
+ *
+ */
+.m-swiper-box{display: block;width: 100%;overflow: hidden;}
+.m-swiper-box .ul{margin: 0 0;transition: transform 0.5s;white-space: nowrap;font-size: 0;}
+.m-swiper-box .ul li{display: inline-block; width: 33.3333%;font-size:12px;background-color: #0e90d2;}
+.m-swiper-box .ul li .c-box{margin: 5px 5px;height: 300px; background-color: #00b83f;}
+.m-swiper-box .b-p{display: flex;margin: 5px auto;justify-content: center;}
+.m-swiper-box .b-p .point{flex: 0 0 auto;margin: 0 5px; list-style: none; width: 20px;height: 20px;border-radius: 50%;text-align: center; background-color: rgba(228, 228, 228, 1);font-size: 0;}
+.m-swiper-box .b-p .point.at{background-color: rgba(201, 201, 201, 1);}

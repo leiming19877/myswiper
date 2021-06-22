@@ -1,0 +1,40 @@
+{
+  "name": "myswiper",
+  "version": "1.0.0",
+  "description": "myswiper",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production  rollup --config rollup.config.js",
+    "dev": "cross-env NODE_ENV=dev rollup --config rollup.config.js",
+    "serve": "rollup --config -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leiming19877/myswiper.git"
+  },
+  "keywords": [
+    "myswiper"
+  ],
+  "author": "leiming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leiming19877/myswiper/issues"
+  },
+  "homepage": "https://github.com/leiming19877/myswiper#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@rollup/plugin-babel": "^5.3.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "cross-env": "^7.0.3",
+    "rollup": "^2.52.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}

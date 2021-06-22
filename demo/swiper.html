@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+	<meta name=“viewport” content=“initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,width=device-width”   />
+	<!--//电话号码不显示为拨号连接； -->
+	<meta name=“format-detection” content=“telephone=no” />
+	<!--// 网站开启对web app的支持 -->
+	<meta name=“app-mobile-web-app-capable”  content=“yes" />
+	<!--//顶部状态条的样式  default 白色  black 黑色 black-translucent:半透明（若值为“black-translucent”将会占据页面px位置，浮在页面上方（会覆盖页面20px高度–iphone4和itouch4的Retina屏幕为40px）） -->
+	<meta name=“app-mobile-web-app-status-bar-style” content=“black-translucent” />
+
+	<style type="text/css">
+		*{margin: 0 0;padding: 0 0;}
+	</style>
+	<link href="../src/myswiper/myswiper.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<div id="swiper-box" class="m-swiper-box">
+		<ul id="swiper-box-ul" class="ul">
+			<li>
+				<div class="c-box">1</div>
+			</li>
+			<li>
+				<div class="c-box">2</div>
+			</li>
+			<li>
+				<div class="c-box">3</div>
+			</li>
+			<li>
+				<div class="c-box">4</div>
+			</li>
+			<li>
+				<div class="c-box">5</div>
+			</li>
+			<li>
+				<div class="c-box">6</div>
+			</li>
+			<li>
+				<div class="c-box">7</div>
+			</li>
+		</ul>
+		<ol class="b-p">
+			<li class="point at">1</li>
+			<li class="point">2</li>
+			<li class="point">3</li>
+		</ol>
+	</div>
+	<script type="text/javascript" src="../src/myswiper/myswiper.js"></script>
+	<script type="text/javascript" >
+		let sp = new Swiper('swiper-box');
+        sp.add('8','8');
+		sp.add('9','9');
+		sp.add('10','10');
+	</script>
+</body>
+</html>
