@@ -22,15 +22,19 @@
     "url": "https://github.com/leiming19877/myswiper/issues"
   },
   "homepage": "https://github.com/leiming19877/myswiper#readme",
-  "dependencies": {},
+  "dependencies": {
+    "core-js": "^3.15.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.14.6",
+    "@babel/plugin-external-helpers": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-typescript": "^7.14.5",
+    "@babel/runtime": "^7.14.6",
     "@rollup/plugin-babel": "^5.3.0",
-    "babel-plugin-external-helpers": "^6.22.0",
-    "babel-preset-latest": "^6.24.1",
     "cross-env": "^7.0.3",
     "rollup": "^2.52.2",
-    "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
